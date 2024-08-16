@@ -14,7 +14,7 @@ public class bookingIndexPage extends basePage{
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy (css = ".ada65db9b5")
+   @FindBy(xpath ="//*[@id=':rh:']")
     WebElement locationInput ;
 
     @FindBy(css="[data-testid='searchbox-dates-container']")
